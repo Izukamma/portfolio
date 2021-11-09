@@ -476,6 +476,11 @@ header {
     padding: 0 2em 2em;
     max-width: 1000px;
     margin: 0 auto;
+    content: "";
+    clear: both;
+    display: table;
+    
+
 }
 
 .portfolio-item-individual p {
@@ -483,3 +488,12 @@ header {
     margin-left: auto;
     margin-right: auto;
 }
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+
+
